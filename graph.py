@@ -28,7 +28,7 @@ def singleton_subsets(graph: AdjacencyList):
     """
 
     N = len(graph)
-    subset = 0
+    subset = 1
     for _ in range(N):
         yield subset<<1
 
